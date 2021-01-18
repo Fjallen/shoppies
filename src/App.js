@@ -30,7 +30,7 @@ function App() {
   }
   //Database searching page 1
   const searchDatabase = () => {
-    fetch(`http://www.omdbapi.com/?s=${name}&apikey=${omdb_key}&type=movie`)
+    fetch(`https://www.omdbapi.com/?s=${name}&apikey=${omdb_key}&type=movie`)
       .then(res => res.json())
       .then(data => {
         setMovies(data.Search)
