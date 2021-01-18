@@ -1,0 +1,49 @@
+body{
+  background-color: #cdcdcd;
+}
+
+.container{
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.card{
+  padding: 10px 10px 10px 10px
+}
+
+.actions-area{
+  padding-top: 20px;
+  flex-direction: row;
+  align-items: stretch;
+  display: flex;
+}
+
+.action-left{
+  flex:1;
+  margin-right: 5px;
+}
+.action-right{
+  flex:1;
+  margin-left: 5px;
+}
+.movie-list{
+  width: 100%;
+  display:inline
+}
+
+img{
+  width: 70px;
+  height: 100px;
+  padding-right: 10px;
+}
+
+.max-nom-modal{
+  padding-left: 25%;
+  padding-top: 25%;
+  width: 50%;
+}
+
+.max-nom-text{
+  padding-left: 15%;
+}
